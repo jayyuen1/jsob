@@ -1,0 +1,43 @@
+{
+  "name": "@jayyuen1/jsob",
+  "version": "0.0.0",
+  "description": "JavaScript/JSON object navigator",
+  "main": "jsob",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayyuen1/jsob.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "JSON",
+    "object",
+    "navigator",
+    "navigation",
+    "navigate",
+    "query",
+    "queryer",
+    "querying",
+    "adjuster",
+    "setter",
+    "getter"
+  ],
+  "author": "jayyuen1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayyuen1/jsob/issues"
+  },
+  "homepage": "https://github.com/jayyuen1/jsob#readme",
+  "engines": {
+    "node": ">=4.2.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}

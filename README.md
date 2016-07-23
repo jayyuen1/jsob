@@ -22,7 +22,7 @@ There are three functions:
 
 For all three functions, you specify a location in your JavaScript/JSON object as a sequential list of keys.
   
-````
+```javascript
 const jsob = require('../jsob')
 
 const obj = {
@@ -80,4 +80,4 @@ jsob.set(obj, ['one', 'four', 'something'], 'myValue') // returns undefined
 //   obj = { zero: 'someString',
 //            one: { three: 'Hello', four: { something: 'myValue' } } }
 
-````
+```
